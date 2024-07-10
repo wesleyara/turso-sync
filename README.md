@@ -43,6 +43,7 @@ Answer the questions (When choosing the tool, use the arrows keys to navigate, t
 - `npx turso-sync create <name>`: Create a new database;
 - `npx turso-sync destroy <name>`: Delete a database;
 - `npx turso-sync list`: List all databases;
+- `npx turso-sync show <name>`: Show a database;
 - `npx turso-sync create-token <name>`: Create a new token for a database;
 - `npx turso-sync migrate <name> <dir_path>`: Migrate a database;
 
