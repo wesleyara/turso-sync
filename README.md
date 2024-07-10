@@ -1,28 +1,61 @@
-# Typescript template
+<h1 align="center" title="Vite Helper">
+  Turso Sync
+</h1>
 
-This is a template for [Typescript](https://www.typescriptlang.org/) projects.
+<h2 align="center">Turso Sync is a CLI to manage the Turso database.</h2>
 
-It comes with:
+<div align="center">
 
-- [Vitest](https://vitest.dev/) for testing
-- [Prettier](https://prettier.io/) for formatting
-- [ESLint](https://eslint.org/) for linting
-- [Rimraf](https://www.npmjs.com/package/rimraf) for cleaning
-- [Husky](https://typicode.github.io/husky/#/) for git hooks
-- [Commitlint](https://commitlint.js.org/#/) for commit linting
-- [Lint-staged](https://github.com/okonet/lint-staged) for linting staged files
-- [Axios](https://axios-http.com/) for HTTP requests
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
+[![npm version](https://img.shields.io/npm/v/turso-sync.svg?style=flat-square)](https://www.npmjs.com/package/turso-sync)
+[![npm downloads](https://img.shields.io/npm/dm/turso-sync.svg?style=flat-square)](http://npm-stat.com/charts.html?package=cz-conventional-changelog&from=2015-08-01) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section --> [![All Contributors](https://img.shields.io/badge/all_contributors-1-green.svg?style=flat-square)](#contributors-) <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# Contributing
+</div>
 
-Your contribution to the `typescript-template` is essential for the evolution of the project, you can do it as follows:
+<h4 align="center">
+ <a href="#-how-use">🚀 How use</a> •
+ <a href="#-contributing">📝 Contributing</a> •
+ <a href="#-thanks">🧑 Thanks</a> •
+ <a href="#-license">📄 License</a>
+</h4>
 
-- Open an [issue](https://github.com/wesleyara/typescript-template/issues) to clear doubts, report bugs or give ideas
-- Open a [pull request](https://github.com/wesleyara/typescript-template/pulls) to give ideas for code improvement, implementation of new features and bug fixes
+<br>
 
-These are just some of the ways you can contribute to the project read the [CONTRIBUTING](https://github.com/wesleyara/typescript-template/blob/main/.github/CONTRIBUTING.md) for more information
+# 🚀 How use
 
-# Authors
+First, install the Turso CLI globally on your machine, using the [tutorial](https://docs.turso.tech/cli/introduction). After that, you are ready to use the Turso Sync CLI.
+
+Utilization is very simple, just run the command:
+
+```bash
+# for open the CLI
+npx turso-sync
+
+# for execute a command
+npx turso-sync <command>
+```
+
+Answer the questions (When choosing the tool, use the arrows keys to navigate, the spacebar to select and enter to finish)
+
+# 📦 Commands
+
+- `npx turso-sync create <name>`: Create a new database;
+- `npx turso-sync destroy <name>`: Delete a database;
+- `npx turso-sync list`: List all databases;
+- `npx turso-sync create-token <name>`: Create a new token for a database;
+- `npx turso-sync migrate <name> <dir_path>`: Migrate a database;
+
+# 📝 Contributing
+
+Your contribution to the `turso-sync` is essential for the evolution of the project, you can do it as follows:
+
+- Open an [issue](https://github.com/wesleyara/turso-sync/issues) to clear doubts, report bugs or give ideas
+- Open a [pull request](https://github.com/wesleyara/turso-sync/pulls) to give ideas for code improvement, implementation of new features and bug fixes
+
+These are just some of the ways you can contribute to the project read the [CONTRIBUTING](https://github.com/wesleyara/turso-sync/blob/main/.github/CONTRIBUTING.md) for more information
+
+# 🧑 Authors
 
 <table>
   <tr>
@@ -44,6 +77,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-## License
+# 📄 License
 
-Typescript template is a open source project licensed as [MIT](LICENSE).
+turso-sync is a open source project licensed as [MIT](LICENSE).
